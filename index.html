@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio personal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/utils.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">My portfolio</a>
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="home">
+        <div class="textBox">
+            <h2>Raúl González</h2>
+            <h3>Front End Web Developer</h3>
+            <a href="/assets/documents/cvpdf.pdf" class="btn hoverable" target="_blank">Download my CV</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About me</h2>
+        </div>
+        <div class="content">
+            <div class="contentBox w50">
+                <h3>Front End Web Developer</h3>
+                <p>Student at Iberoamericana University</p>
+            </div>
+            <div class="w50 center">
+                <img src="./assets/images/img1.jpg" alt="" class="img">
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>My services</h2>
+            <p>Proficiency in all of these areas:</p>
+        </div>
+        <div class="content">
+            <div class="servicesBox">
+                <img src="/assets/images/icon1.png" alt="Web design icon">
+                <h2>Web design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus nulla id porttitor suscipit. Mauris ut lacus mattis, lacinia nunc.</p>
+            </div>
+            <div class="servicesBox">
+                <img src="/assets/images/icon2.png" alt="Web development icon">
+                <h2>Web development</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus nulla id porttitor suscipit. Mauris ut lacus mattis, lacinia nunc.</p>
+            </div>
+            <div class="servicesBox">
+                <img src="/assets/images/icon3.png" alt="Android icon">
+                <h2>Android apps</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus nulla id porttitor suscipit. Mauris ut lacus mattis, lacinia nunc.</p>
+            </div>
+            <div class="servicesBox">
+                <img src="/assets/images/icon4.png" alt="Media icon">
+                <h2>Media</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus nulla id porttitor suscipit. Mauris ut lacus mattis, lacinia nunc.</p>
+            </div>
+        </div>
+    </section>
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>My latest work</h2>
+        </div>
+        <div class="content">
+            <div class="workBox">
+                <img src="/assets/images/product1.jpg" alt="Product image 1" class="hoverable">
+            </div>
+            <div class="workBox">
+                <img src="/assets/images/product2.jpg" alt="Product image 2" class="hoverable">
+            </div>
+            <div class="workBox">
+                <img src="/assets/images/product3.jpg" alt="Product image 3" class="hoverable">
+            </div>
+            <div class="workBox">
+                <img src="/assets/images/img1.jpg" alt="Product image 4" class="hoverable">
+            </div>
+            <div>
+                <a href="#" class="btn hoverable">View more...</a>
+            </div>
+        </div>
+    </section>
+    <section class="certifications" id="certifications">
+        <div class="heading">
+            <h2>Licenses and Certifications</h2>
+        </div>
+        <div class="content">
+            <div class="certificationBox hoverable">
+                <div class="centerBox certificationLogo">
+                    <img src="/assets/images/js-moderno.png" alt="JavaScript logo">
+                </div>
+                <p>Javascript moderno: Guía para dominar el lenguaje | Udemy</p>
+                <p>Expedition date: May 2021</p>
+                <p>Certificate ID: XX-XXXXXXXXXX</p>
+                <a href="#">See certificate</a>
+                <h3>Fernando Herrera<br><span>Fullstack developer</span></h3>
+            </div>
+            <div class="certificationBox hoverable">
+                <div class="centerBox certificationLogo">
+                    <img src="/assets/images/js-moderno.png" alt="JavaScript logo">
+                </div>
+                <p>Javascript moderno: Guía para dominar el lenguaje | Udemy</p>
+                <p>Expedition date: May 2021</p>
+                <p>Certificate ID: XX-XXXXXXXXXX</p>
+                <a href="#">See certificate</a>
+                <h3>Fernando Herrera<br><span>Fullstack developer</span></h3>
+            </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact me</h2>
+            <p>Contact info and more</p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact info</h3>
+                <div class="contactInfoBox">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                            <div class="text">
+                                <h3>Address</h3>
+                                <p>Tlalnepantla de Báz, Estado de México</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                            <div class="text">
+                                <h3>Phone</h3>
+                                <p>+5255899967199</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope"></i>
+                            <div class="text">
+                                <h3>Email</h3>
+                                <p>raulgonzalezportillo@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="socialIcon">
+                            <a href="https://www.linkedin.com/in/ra%C3%BAl-gonz%C3%A1lez-portillo-221580173/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBox">
+                <form id="contactForm">
+                    <h3>Message me</h3>
+                    <input type="text" placeholder="Full name" name="name" required>
+                    <input type="email" placeholder="Email" name="email">
+                    <textarea placeholder="Your message" name="message" id="" cols="30" rows="10"></textarea>
+                    <div class="buttons">
+                        <input type="submit" value="Send">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+            </div>
+            <a href="#" id="mailTo"></a>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>Copyright &copy; 2021 Raúl González. All rights reserved.</p>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
